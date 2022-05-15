@@ -2,7 +2,7 @@
 #properties and methods(functions) associated with it. Almost everything in python is an object
 
 class User:
-    def __init__(self,name, email,age):
+    def __init__(self,name, email,age:int):
        self.name=name
        self.email =email
        self.age=age
@@ -21,8 +21,8 @@ class Customer(User):
       self.name=name
       self.email =email
       self.age=age
-      self.balance =0
-      
+      self.balance =0    #divmode(10,4) floor,modulus 
+ #round(_,3) variables are automatically saved to underscore repr repr() pr str()   
      def set_balance(self,balance):
         self.balance =balance
      def greeting(self):
@@ -40,3 +40,11 @@ print(brad.greeting())
 print(type(User))
 janet.set_balance(200)
 print(janet.greeting)
+
+
+"""
+MyClass.i var in d class
+MyClass.f func in d classs
+MyClass.__doc__ a string literal in the class
+"""
+#pip freeze -view all packages installed local n global

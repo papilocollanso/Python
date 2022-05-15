@@ -11,3 +11,8 @@ print(type(x))
 x = str(x)
 y = int(y)
 z = float(y)
+# pip install virtualenvwrapper-win
+#makevirtualenv python-courses
+#pip install request, python package for apis call into that environment
+#deactivate exit from d virtual env
+#workon demo1 go into the virtual env

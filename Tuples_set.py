@@ -25,6 +25,7 @@ fruits_set.add('grapes')
 #print(fruits_set)
 #remove set
 fruits_set.remove('grapes')
+
 #clear set
 fruits_set.clear()
 del fruits_set

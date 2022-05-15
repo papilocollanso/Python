@@ -6,10 +6,14 @@ person ={
     'age': 30
     
 }
-person2 = dict(first_name='Sara', last_name='collins')
+person2 = dict(first_name='Sara', last_name='collins') # squares[:] copy an array
+#mathc status
 
-
-
+"""
+try:
+except(TypeError, NameError,ValueError,RuntimeError):
+or except ZeroDivisionError as err:
+"""
 #print(person['first_name'])
 #print(person.get('last_name'))
 
@@ -24,6 +28,8 @@ person2['city']='boston'
 person.pop('age');
 
 #clear
+#pass jus go to the next code dont do anything
+#finally
 
 person.clear()
 #print(person);
